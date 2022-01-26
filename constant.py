@@ -11,66 +11,54 @@ REPORT_API = 'https://app.bupt.edu.cn/ncov/wap/default/save'
 # 当今日没有填报时，在https://app.bupt.edu.cn/ncov/wap/default/index下进行填报，
 # 全部填完，不要提交，f12打开控制台，在Console页面下输入代码 console.log(vm.info) 就会得到以下信息，之后每天就默认填以下信息
 INFO = r"""{
-        address: "河北省保定市涿州市双塔街道中国石油东方地球物理公司",
-        area: "河北省 保定市 涿州市",
-        bztcyy: "4",
-        city: "保定市",
-        created: 1643127908,
-        created_uid: 0,
-        csmjry: "0",
-        date: "20220126",
-        geo_api_info: "{\"type\":\"complete\",\"position\":{\"Q\":39.486264919705,\"R\":115.98029215494802,\"lng\":115.980292,\"lat\":39.486265},\"location_type\":\"html5\",\"message\":\"Get ipLocation failed.Get geolocation success.Convert Success.Get address success.\",\"accuracy\":11571,\"isConverted\":true,\"status\":1,\"addressComponent\":{\"citycode\":\"0312\",\"adcode\":\"130681\",\"businessAreas\":[],\"neighborhoodType\":\"\",\"neighborhood\":\"\",\"building\":\"\",\"buildingType\":\"\",\"street\":\"范阳西路\",\"streetNumber\":\"108号\",\"country\":\"中国\",\"province\":\"河北省\",\"city\":\"保定市\",\"district\":\"涿州市\",\"towncode\":\"130681001000\",\"township\":\"双塔街道\"},\"formattedAddress\":\"河北省保定市涿州市双塔街道中国石油东方地球物理公司\",\"roads\":[],\"crosses\":[],\"pois\":[],\"info\":\"SUCCESS\"}",
-        glksrq: ""
-        gllx: ""
-        gtjzzfjsj: ""
-        gwszdd: ""
-        id: 17188492
-        ismoved: 1
-        jcbhlx: ""
-        jcbhrq: ""
-        jchbryfs: ""
-        jcjg: ""
-        jcjgqr: "0"
-        jcqzrq: ""
-        jcwhryfs: ""
-        jhfjhbcc: ""
-        jhfjjtgj: ""
-        jhfjrq: ""
-        jrsfqzfy: ""
-        jrsfqzys: ""
-        mjry: "0"
-        province: "河北省"
-        qksm: ""
-        remark: ""
-        sfcxtz: "0"
-        sfcxzysx: "0"
-        sfcyglq: "0"
-        sfjcbh: "0"
-        sfjchbry: "0"
-        sfjcqz: ""
-        sfjcwhry: "0"
-        sfjzdezxgym: 1
-        sfjzxgym: 1
-        sfsfbh: 1
-        sfsqhzjkk: 0
-        sftjhb: "0"
-        sftjwh: "0"
-        sfxk: 0
-        sfygtjzzfj: 0
-        sfyqjzgc: ""
-        sfyyjc: "0"
-        sfzx: 0
-        sqhzjkkys: ""
-        szcs: ""
-        szgj: ""
-        szsqsfybl: 0
-        tw: "2"
-        uid: "49864"
-        xjzd: "河北省涿州市冠云路汇元时代"
-        xkqq: ""
-        xwxgymjzqk: 3
-        ymjzxgqk: "已接种两针"
-        zgfxdq: "0"
+        "address":"河北省保定市涿州市双塔街道中国石油东方地球物理公司",
+        "area":"河北省 保定市 涿州市",
+        "bztcyy":"4",
+        "city":"保定市",
+        "csmjry":"0",
+        "fjqszgjdq":"",
+        "geo_api_info":"{\"type\":\"complete\",\"position\":{\"Q\":39.486264919705,\"R\":115.98029215494802,\"lng\":115.980292,\"lat\":39.486265},\"location_type\":\"html5\",\"message\":\"Get ipLocation failed.Get geolocation success.Convert Success.Get address success.\",\"accuracy\":11571,\"isConverted\":true,\"status\":1,\"addressComponent\":{\"citycode\":\"0312\",\"adcode\":\"130681\",\"businessAreas\":[],\"neighborhoodType\":\"\",\"neighborhood\":\"\",\"building\":\"\",\"buildingType\":\"\",\"street\":\"范阳西路\",\"streetNumber\":\"108号\",\"country\":\"中国\",\"province\":\"河北省\",\"city\":\"保定市\",\"district\":\"涿州市\",\"towncode\":\"130681001000\",\"township\":\"双塔街道\"},\"formattedAddress\":\"河北省保定市涿州市双塔街道中国石油东方地球物理公司\",\"roads\":[],\"crosses\":[],\"pois\":[],\"info\":\"SUCCESS\"}",        
+		"glksrq":"",
+        "gllx":"",
+        "gtjzzchdfh":"",
+        "gtjzzfjsj":"",
+        "ismoved":"1",
+        "jcbhlx":"",
+        "jcbhrq":"",
+        "jchbryfs":"",
+        "jcjgqr":"0",
+        "jcwhryfs":"",
+        "jhfjhbcc":"",
+        "jhfjjtgj":"",
+        "jhfjrq":"",
+        "mjry":"0",
+        "province":"河北省",
+        "qksm":"",
+        "remark":"",
+        "sfcxtz":"0",
+        "sfcxzysx":"0",
+        "sfcyglq":"0",
+        "sfjcbh":"0",
+        "sfjchbry":"0",
+        "sfjcwhry":"0",
+        "sfjzdezxgym":"1",
+        "sfjzxgym":"1",
+        "sfsfbh":"1",
+        "sftjhb":"0",
+        "sftjwh":"0",
+        "sfxk":"0",
+        "sfygtjzzfj":"",
+        "sfyyjc":"0",
+        "sfzx":0,
+        "szcs":"",
+        "szgj":"",
+        "szsqsfybl":"0",
+        "tw":"2",
+        "xjzd":"河北省涿州市冠云路汇元时代",
+        "xkqq":"",
+        "xwxgymjzqk":"3",
+        "ymjzxgqk":"已接种两针",
+        "zgfxdq":"0"
         }"""
 
 REASONABLE_LENGTH = 24
